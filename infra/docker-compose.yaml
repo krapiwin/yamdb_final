@@ -9,7 +9,7 @@ services:
       - .env
 
   web:
-    build: ../api_yamdb
+    image: krapiwin/infra_yp
     restart: always
     volumes:
       - static_value:/app/static/
