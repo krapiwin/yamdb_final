@@ -43,8 +43,8 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }} 
       - name: Push to Docker Hub
         uses: docker/build-push-action@v3
-        file: api_yamdb/Dockerfile
         with:
+          file: api_yamdb/Dockerfile
           push: true
           tags: krapiwin/infra_yp:latest
 
