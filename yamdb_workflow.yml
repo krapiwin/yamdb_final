@@ -44,6 +44,7 @@ jobs:
       - name: Push to Docker Hub
         uses: docker/build-push-action@v3
         with:
+          context: ./api_yamdb
           file: api_yamdb/Dockerfile
           push: true
           tags: krapiwin/infra_yp:latest
