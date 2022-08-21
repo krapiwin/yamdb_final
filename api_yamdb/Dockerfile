@@ -10,6 +10,4 @@ COPY / /app
 
 WORKDIR /app
 
-RUN python manage.py collectstatic
-
 CMD ["gunicorn", "api_yamdb.wsgi:application", "--bind", "0:8000"]
