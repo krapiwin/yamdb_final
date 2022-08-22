@@ -25,17 +25,7 @@ YaTube API это RESTful API, позволяющий создавать и ре
 ## Начало работы
 ```
 git clone
-cd infra_sp2/infra
-nano .env
-```
-скопируйте в файл .env 
-```
-DB_ENGINE=django.db.backends.postgresql
-DB_NAME=postgres
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD=postgres # пароль для подключения к БД (установите свой)
-DB_HOST=db
-DB_PORT=5432
+cd yamdb_final/infra
 ```
 ```
 docker compose up -d
