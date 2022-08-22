@@ -2,7 +2,7 @@
 ![Django workflow](https://github.com/krapiwin/yamdb_final/actions/workflows/main.yml/badge.svg)
 # YaMDb api
 
-Протестировать работу сервиса можете по адресу yamdtest.ddns.net/api/v1/
+Протестировать работу сервиса можете по [ссылке](http://yamdtest.ddns.net/api/v1/)
 
 ## Самая актуальная версия API всемирно известного YaMDb.
 
